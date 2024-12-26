@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home">Digital Agency</a>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#services"><i class="fas fa-cogs"></i> Services</a></li>
+                <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">  
+            <h1>Welcome to Your Digital Future</h1>
+            <p>Empowering businesses with cutting-edge digital solutions.</p>
+            <a href="#services" class="cta-button">Explore Services</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="card-container">
+                <div class="card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Building responsive and dynamic websites tailored to your needs.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>SEO Optimization</h3>
+                    <p>Improve your website's visibility with our SEO strategies.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Crafting visually appealing and user-friendly interfaces.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Digital Marketing</h3>
+                    <p>Promote your brand with effective digital marketing campaigns.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2>Our Work</h2>
+            <div class="portfolio-container ">
+                <div class="portfolio-item">
+                    <img src="images12.png" alt="Project 1">
+                    <div class="portfolio-text"><br><b>Portfolio Websites</b><br>
+                        "Our portfolio showcases a selection of projects we have worked on, ranging from small startups to large enterprises. Each project is a reflection of our commitment to creativity, innovation, and delivering results. Explore our work below to see how we’ve helped businesses grow through effective digital solutions."
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images14.png" alt="Project 2">
+                    <div class="portfolio-text"><b><br>Websites for Businesss</b><br>
+                        We are more than just a web design agency. We help businesses craft their digital identity and establish a powerful online presence. From creative design to growth-driven strategies, we’re dedicated to helping your brand stand out, connect with your audience, and achieve your business goals.
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images11.png" alt="Project 3">
+                    <div class="portfolio-text"><br><br><b>Secure, Strategic, and Rewarding Investments</b><br>
+                        We believe in making investment decisions that are as strategic as they are rewarding. Our portfolio includes a diverse range of assets, from traditional stocks and bonds to emerging markets and alternative investments. Whether you’re new to investing or an experienced investor, our portfolio is designed to help you achieve long-term financial security and success.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <small class="error-message"></small>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <small class="error-message"></small>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <small class="error-message"></small>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p>&copy; 2024 Digital Agency. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
